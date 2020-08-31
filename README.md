@@ -17,3 +17,6 @@ Send other data to nRF52,it will stop send PCM data.
 More ibfo: 
 You can set the PHY to 2Mbps and test it.
 The connect interval is 
+  
+#These files for study only , can not use in your product!  
+#Copyright belongs to me.  
