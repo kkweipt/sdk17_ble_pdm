@@ -852,6 +852,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t* evt)
       nrf_gpio_pin_write(PDM_BUFF_TEST_PIN,flag);
    
       pullin_data((uint8_t*)buff2,sizeof(buff2));
+			flag = 1;
 
 		}
 		else
@@ -860,6 +861,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t* evt)
       nrf_gpio_pin_write(PDM_BUFF_TEST_PIN,flag);
   
       pullin_data((uint8_t*)buff1,sizeof(buff1));
+			flag = 0;
 		}
 	}
 }
